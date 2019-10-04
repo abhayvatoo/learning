@@ -1,0 +1,8 @@
+/home/abhay/learn/lib/build/CMakeFiles/install/strip.dir
+/home/abhay/learn/lib/build/CMakeFiles/install/local.dir
+/home/abhay/learn/lib/build/CMakeFiles/test-case.dir
+/home/abhay/learn/lib/build/CMakeFiles/mylib.dir
+/home/abhay/learn/lib/build/CMakeFiles/list_install_components.dir
+/home/abhay/learn/lib/build/CMakeFiles/edit_cache.dir
+/home/abhay/learn/lib/build/CMakeFiles/rebuild_cache.dir
+/home/abhay/learn/lib/build/CMakeFiles/install.dir

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Person.h
+string
+-
+
+../include/Tweeter.h
+string
+-
+Person.h
+../include/Person.h
+
+/home/abhay/learn/cpp-fundamentals/first-demo/main.cpp
+iostream
+/home/abhay/learn/cpp-fundamentals/first-demo/iostream
+Person.h
+/home/abhay/learn/cpp-fundamentals/first-demo/Person.h
+Tweeter.h
+/home/abhay/learn/cpp-fundamentals/first-demo/Tweeter.h
+
+/home/abhay/learn/cpp-fundamentals/first-demo/source/person/Person.cpp
+Person.h
+/home/abhay/learn/cpp-fundamentals/first-demo/source/person/Person.h
+
+/home/abhay/learn/cpp-fundamentals/first-demo/source/tweeter/Tweeter.cpp
+string
+-
+Tweeter.h
+/home/abhay/learn/cpp-fundamentals/first-demo/source/tweeter/Tweeter.h
+

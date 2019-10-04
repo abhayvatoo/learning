@@ -1,0 +1,5 @@
+/usr/local/lib/libmylib.so.1.0.1
+/usr/local/lib/libmylib.so.1
+/usr/local/lib/libmylib.so
+/usr/local/include/mylib.h
+/usr/local/share/pkgconfig/mylib.pc

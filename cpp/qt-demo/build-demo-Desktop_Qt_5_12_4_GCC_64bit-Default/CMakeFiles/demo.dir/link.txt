@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/demo.dir/main.cpp.o CMakeFiles/demo.dir/demo_autogen/mocs_compilation.cpp.o  -o demo -Wl,-rpath,/home/abhay/Qt/5.12.4/gcc_64/lib /home/abhay/Qt/5.12.4/gcc_64/lib/libQt5Core.so.5.12.4 

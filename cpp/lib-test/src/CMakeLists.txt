@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( radist )
+find_package( OpenCV REQUIRED )
+add_library( radist STATIC radist.cpp )
+install( TARGETS radist DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/../lib )
+install( FILES radist.h DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/../include )

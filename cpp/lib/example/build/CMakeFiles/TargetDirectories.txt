@@ -1,0 +1,3 @@
+/home/abhay/learn/lib/example/build/CMakeFiles/rebuild_cache.dir
+/home/abhay/learn/lib/example/build/CMakeFiles/app.dir
+/home/abhay/learn/lib/example/build/CMakeFiles/edit_cache.dir

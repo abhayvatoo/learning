@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/app.dir/main.cpp.o CMakeFiles/app.dir/source/person/Person.cpp.o CMakeFiles/app.dir/source/tweeter/Tweeter.cpp.o  -o app 

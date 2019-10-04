@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abhay/learn/pluralsight/design-pattern/first/Journal.cpp
+Journal.h
+/home/abhay/learn/pluralsight/design-pattern/first/Journal.h
+
+/home/abhay/learn/pluralsight/design-pattern/first/Journal.h
+iostream
+/home/abhay/learn/pluralsight/design-pattern/first/iostream
+vector
+-
+
+/home/abhay/learn/pluralsight/design-pattern/first/Main.cpp
+iostream
+/home/abhay/learn/pluralsight/design-pattern/first/iostream
+Journal.h
+/home/abhay/learn/pluralsight/design-pattern/first/Journal.h
+iostream
+/home/abhay/learn/pluralsight/design-pattern/first/iostream
+vector
+-
+
