@@ -1,5 +1,2 @@
 .DS_Store
 
-# ignore javascript and react folder for now
-javaScript/
-react/
