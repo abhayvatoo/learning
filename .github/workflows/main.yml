@@ -37,7 +37,4 @@ jobs:
     - name: Build the Docker image  
       if: contains($IMAGE_TAG, '-dev')
       run: echo "docker tag is $IMAGE_TAG"
-      
-      if: ! contains($IMAGE_TAG, '-dev')
-      run: echo "docker tag is $IMAGE_TAG"
 
