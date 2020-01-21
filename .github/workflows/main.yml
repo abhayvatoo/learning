@@ -17,7 +17,7 @@ jobs:
 
     steps:
     - name: init IMAGE_TAG dev
-      if: startsWith(github.ref,'refs/heads/master')
+      if: startsWith(github.ref,'refs/heads/dev')
       run: echo "::set-env name=IMAGE_TAG::latest-dev"
 
     - name: init IMAGE_TAG stage
