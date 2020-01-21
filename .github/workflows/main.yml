@@ -21,13 +21,13 @@ jobs:
       run: echo "::set-env name=IMAGE_TAG::latest-dev"
 
     - name: init IMAGE_TAG stage
-      if: startsWith(github.ref,'refs/heads/stage-') == true
+      if: startsWith(github.ref,'refs/heads/stage-')
       run: |
         TAG=$(cut -d "-" -f2 <<< "$GITHUB_REF")-dev
         echo "::set-env name=IMAGE_TAG::${TAG}"
       
     - name: init IMAGE_TAG release
-      if: startsWith(github.ref,'refs/heads/release') == true
+      if: startsWith(github.ref,'refs/heads/release')
       run: echo "::set-env name=IMAGE_TAG::release"
 
     # - name: init IMAGE_TAG git tag
@@ -35,6 +35,6 @@ jobs:
     #   run: echo "::set-env name=IMAGE_TAG::${GITHUB_REF/refs\/tags\//}"
 
     - name: Build the Docker image
-      if: contains(GITHUB_IMAGE_TAG,'-dev')
+      if: endsWith($IMAGE_TAG,'-dev')
       run: echo "docker tag is $IMAGE_TAG"
 
