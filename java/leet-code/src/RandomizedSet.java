@@ -34,13 +34,13 @@ public class RandomizedSet {
 	public boolean remove(int val) {
 		if (dataMap.containsKey(val)) {
 			// move the last element to the place idx of the element to delete
-		    int lastElement = dataList.get(dataList.size() - 1);
-		    int idx = dataMap.get(val);
-		    dataList.set(idx, lastElement);
-		    dataMap.put(lastElement, idx);
-		    // delete the last element
-		    dataList.remove(dataList.size() - 1);
-		    dataMap.remove(val);
+			int lastElement = dataList.get(dataList.size() - 1);
+			int idx = dataMap.get(val);
+			dataList.set(idx, lastElement);
+			dataMap.put(lastElement, idx);
+			// delete the last element
+			dataList.remove(dataList.size() - 1);
+			dataMap.remove(val);
 			return true;
 		}
 		return false;
@@ -52,13 +52,12 @@ public class RandomizedSet {
 		int randomIndex = rand.nextInt(dataList.size());
 		return dataList.get(randomIndex);
 	}
-	
 
 	public static void main(String[] args) {
-		RandomizedSet obj = new RandomizedSet();
-		boolean param_1 = obj.insert(1);
-		boolean param_2 = obj.remove(1);
-		int param_3 = obj.getRandom();
+//		RandomizedSet obj = new RandomizedSet();
+//		boolean param_1 = obj.insert(1);
+//		boolean param_2 = obj.remove(1);
+//		int param_3 = obj.getRandom();
 
 	}
 

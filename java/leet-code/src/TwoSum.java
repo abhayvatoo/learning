@@ -14,18 +14,18 @@ public class TwoSum {
 	public static int[] twoSum(int[] nums, int target) {
 		int[] ans = new int[2];
 
-		Map<Integer, Integer> alreadySeen = new HashMap<>();
+		Map<Integer, Integer> seenComplement = new HashMap<>();
 
 		for (int i = 0; i < nums.length; i++) {
 			int num = nums[i];
 
-			if (alreadySeen.containsKey(num)) {
-				ans[0] = alreadySeen.get(num);
+			if (seenComplement.containsKey(num)) {
+				ans[0] = seenComplement.get(num);
 				ans[1] = i;
 				break;
 			} else {
 				int complement = target - num;
-				alreadySeen.put(complement, i);
+				seenComplement.put(complement, i);
 			}
 
 		}
